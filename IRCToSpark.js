@@ -93,7 +93,7 @@ function sendRequest(myURL, myMethod, myHeaders, myData, callback) { // Sends RE
   });
 }
 
-var bot = new irc.Client('irc.freenode.net', botName.irc, { //Create Bot
+var bot = new irc.Client('irc.freenode.net', botName.irc, { //Connect to IRC
     channels: [myChannel]
 });
 
